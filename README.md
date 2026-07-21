@@ -21,6 +21,7 @@ There is not yet a stable bundle format, schema, CLI, SDK, desktop app, mobile a
 - [Bundles](docs/BUNDLES.md)
 - [Provenance](docs/PROVENANCE.md)
 - [Linking](docs/LINKING.md)
+- [Decisions](docs/decisions/README.md)
 
 ## Design Recovery
 

@@ -68,6 +68,14 @@ Obsidian, a mobile app, a desktop app, a CLI, Finder or Quick Look, VS Code, a s
 
 Knowledge should outlive the applications that touch it.
 
+## Small Helpers Are Welcome
+
+> A helper should reveal an object, not own it.
+
+Onbii should not require a full Onbii application before an object becomes useful. Small readers, previews, plugins, projections, or command-line tools may appear early if they help people inspect, trust, or move knowledge objects.
+
+A basic Obsidian reader, Finder or Quick Look preview, text projection, or tiny viewer is valuable when it makes the object easier to understand. Those helpers should remain surfaces over user-owned objects rather than becoming the place where the knowledge truly lives.
+
 ## Bring Your Own Components
 
 > Onbii should not require one recorder, one AI provider, one database, one sync service, or one application.

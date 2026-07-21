@@ -59,6 +59,22 @@ A normal user sees one object. A power user can inspect the contents. A develope
 
 The bundle should not require a proprietary database or hosted service to be understood.
 
+## Views And Helpers
+
+Bundles should be usable before there is a full Onbii application.
+
+Small helpers may make a bundle easier to inspect:
+
+- an Obsidian reader that exposes the human-readable content;
+- a Finder or Quick Look preview;
+- a tiny viewer;
+- a command-line inspection tool;
+- a projection into Markdown or another readable format.
+
+These helpers should not become the system of record. They should read or render the bundle while preserving the bundle as the manageable knowledge object.
+
+This is different from returning to loose sidecar files. The bundle remains the object; views expose useful facets of it.
+
 ## Cross-Platform
 
 Onbii bundles should not depend on macOS.

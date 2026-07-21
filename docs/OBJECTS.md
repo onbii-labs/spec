@@ -173,3 +173,7 @@ Different applications may show the same object differently.
 Obsidian may show a Markdown projection. A desktop app may show the full bundle. Quick Look may show a preview. A search tool may index text and metadata. An AI assistant may use the transcript and links as context.
 
 These are views over the object. They are not the object itself.
+
+Early views do not need to understand everything.
+
+A simple reader may expose `content.md`, a transcript, basic metadata, and source references without handling every derived artefact, link type, or provenance event. That can still be useful, as long as the full object remains intact and inspectable.

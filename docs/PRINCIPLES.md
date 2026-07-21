@@ -100,6 +100,22 @@ Source adapters normalise acquired artefacts so they can enter the Onbii pipelin
 
 Those boundaries should stay clear even when an implementation combines several of them for convenience.
 
+```mermaid
+flowchart TD
+    live["Live capture<br/>Zoom, Teams, calls, walks"] --> capture["Capture adapters<br/>Detect or record live situations"]
+    existing["Existing sources<br/>Voice memos, podcasts, exports, files"] --> source["Source adapters<br/>Normalise acquired artefacts"]
+    capture --> source
+    source --> processing["Processing pipeline<br/>Transcribe, diarise, enrich, reprocess"]
+    oracles["Metadata oracles<br/>Speakers, calendar, contacts, topics"] --> processing
+    ai["AI providers<br/>On-device, subscription, local, or hosted"] --> processing
+    processing --> objects["Onbii knowledge objects<br/>Sources, human-readable facets, derived data, provenance, links"]
+    objects -. "existing objects as context or input" .-> processing
+    objects --> storage["User-owned storage<br/>Filesystem, Obsidian vault, Git, sync folder, NAS"]
+    storage --> views["Views and helpers<br/>Obsidian, Finder, Quick Look, CLI, mobile, search, AI recall"]
+    objects --> indexes["Rebuildable projections<br/>Search, graph, vectors, caches"]
+    indexes --> views
+```
+
 ## Machine Optimisation Is Rebuildable
 
 Graphs, vector indexes, search indexes, entity stores, caches, and databases can be useful, but they should not be the only form of the user's knowledge.

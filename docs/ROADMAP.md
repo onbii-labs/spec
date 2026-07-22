@@ -22,6 +22,8 @@ The first useful version of Onbii should give a person confidence that an import
 
 This is the first wedge: **capture certainty before intelligence**.
 
+See also [Milestone 1 Breakdown](MILESTONE_1_BREAKDOWN.md) for the Apple-first capture-certainty breakdown.
+
 A person should be able to say:
 
 > "That conversation is in Onbii. I can come back to it later."

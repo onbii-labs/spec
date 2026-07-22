@@ -17,6 +17,8 @@ There is not yet a stable bundle format, schema, CLI, SDK, desktop app, mobile a
 - [Vision](docs/VISION.md)
 - [Principles](docs/PRINCIPLES.md)
 - [Roadmap](docs/ROADMAP.md)
+- [Milestone 1 Breakdown](docs/MILESTONE_1_BREAKDOWN.md)
+- [Implementation Architecture Outline](docs/IMPLEMENTATION_ARCHITECTURE.md)
 - [Objects](docs/OBJECTS.md)
 - [Bundles](docs/BUNDLES.md)
 - [Provenance](docs/PROVENANCE.md)

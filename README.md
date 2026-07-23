@@ -36,3 +36,7 @@ These files are not the specification itself. They are source material for the f
 The Onbii specification and documentation are licensed under Creative Commons Attribution 4.0 International unless otherwise stated.
 
 The Onbii name and logo are not licensed under CC BY 4.0. See [NOTICE.md](NOTICE.md).
+
+## Stewardship
+
+Onbii is an open project maintained and operated by Yepyr B.V. Yepyr B.V. publishes the official applications and commercial distributions. The source in this repository remains available under its stated open-source license.

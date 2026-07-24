@@ -45,6 +45,7 @@ Smaller working decisions can remain in the relevant document until they become 
 | [0026](0026-identifier-scheme-open.md) | Identifier scheme remains open | Open |
 | [0027](0027-future-code-license-open.md) | Future code license remains open | Open |
 | [0028](0028-onbii-name.md) | Project name is Onbii | Accepted |
+| [0029](0029-compact-audio-originals.md) | Captured audio originals are compact, not lossless | Accepted |
 
 ## Status Values
 
